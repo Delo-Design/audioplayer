@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" version="3.8" group="radicalmultifield" method="upgrade">
+	<name>PLG_RADICALMILTIFIELDAUDIOPLAYER</name>
+	<creationDate>17.11.2018</creationDate>
+	<author>delo-design.ru</author>
+	<authorEmail>info@delo-design.ru</authorEmail>
+	<authorUrl>https://delo-design.ru</authorUrl>
+	<copyright>Copyright (C) 2018 "Delo Design". All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<version>1.0</version>
+	<description>PLG_RADICALMILTIFIELDAUDIOPLAYER_XML_DESCRIPTION</description>
+
+	<!-- Language files -->
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.plg_radicalmultifield_audioplayer.ini</language>
+		<language tag="en-GB">en-GB/en-GB.plg_radicalmultifield_audioplayer.sys.ini</language>
+		<language tag="ru-RU">ru-RU/ru-RU.plg_radicalmultifield_audioplayer.ini</language>
+		<language tag="ru-RU">ru-RU/ru-RU.plg_radicalmultifield_audioplayer.sys.ini</language>
+	</languages>
+
+	<!-- Plugin files -->
+	<files>
+		<filename plugin="audioplayer">LICENSE</filename>
+		<folder>language</folder>
+		<folder>radicalmultifield</folder>
+		<folder>params</folder>
+		<folder>tmpl</folder>
+	</files>
+
+	<media folder="media" destination="plg_radicalmultifield_audioplayer">
+		<folder>css</folder>
+		<folder>img</folder>
+		<folder>js</folder>
+	</media>
+
+</extension>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fields name="fieldparams" addfieldpath="/plugins/fields/radicalmultifield/fields">
+        <fieldset name="fieldparams">
+
+            <field
+                    name="template"
+                    default="_:default"
+            />
+
+            <field name="aview"
+                   default="joomla.form.field.subform.repeatable-table"
+            >
+            </field>
+
+            <field name="filesimport"
+                   default="1"
+            >
+            </field>
+
+            <field name="filesimportadmin"
+                   default="1"
+                   >
+            </field>
+
+            <field name="filesimportname"
+                   default="file"
+            />
+
+            <field name="filesimportnamefile"
+                   default="name"
+            />
+
+            <field name="filesimportexc"
+                   default="mp3,mpeg,flac,ogg"
+            />
+
+
+            <field name="filesimportpath"
+                   default="audios/{day}-{month}-{year}"
+            />
+
+            <field name="filesimportmaxsize"
+                   default="20"
+            />
+
+
+            <field name="filesimportresize"
+                   default="0">
+            </field>
+
+            <field name="filesimportrezizemaxwidth"
+                   default="1980"
+            />
+
+            <field name="filesimportrezizemaxheight"
+                   default="1280"
+            />
+
+            <field name="filesimportrezizeoverlay"
+                   default="0"
+                   >
+            </field>
+
+            <field name="filesimportrezizeoverlayfile"
+                   default="images/joomla_black.png"
+            />
+
+            <field name="filesimportrezizeoverlaypos"
+                   default="topleft"
+            >
+            </field>
+
+            <field name="filesimportrezizeoverlaypadding"
+                   default="10"
+            />
+
+            <field name="listtype"
+                default='{"listtype1":{"name":"file","title":"\u0424\u0430\u0439\u043b","type":"media","required":"1","listview":"list","multiple":"0","options":"","attrs":""},"listtype0":{"name":"name","title":"\u0418\u043c\u044f \u0442\u0440\u0435\u043a\u0430","type":"text","required":"1","listview":"list","multiple":"0","options":"","attrs":""},"listtype2":{"name":"musician","title":"\u0418\u0441\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c","type":"text","required":"1","listview":"list","multiple":"0","options":"","attrs":""}}'
+            />
+
+        </fieldset>
+    </fields>
+</form>

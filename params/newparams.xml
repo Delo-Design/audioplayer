@@ -1,0 +1,36 @@
+<field name="waveColor"
+       label="colorWave"
+       type="color"
+       default="#dddddd"
+/>
+
+<field name="progressColor"
+       label="progressColor"
+       type="color"
+       default="#F6953E"
+/>
+
+
+<field name="cursorColor"
+       label="cursorColor"
+       type="color"
+       default="#ba6f2e"
+/>
+
+<field name="buttonPrimary"
+       label="buttonPrimary"
+       type="color"
+       default="#F6953E"
+/>
+
+<field name="buttonPrimaryIcon"
+       label="buttonPrimaryIcon"
+       type="color"
+       default="#ffffff"
+/>
+
+<field name="buttonTransparentIcon"
+       label="buttonTransparentIcon"
+       type="color"
+       default="#ffffff"
+/>
