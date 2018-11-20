@@ -225,11 +225,11 @@
 }
 
 .audio-current .audio-current-button-prev span {
-    margin-left: 2px;
+    margin-left: 0;
 }
 
 .audio-current .audio-current-button-next span {
-    margin-left: 5px;
+    margin-left: 3px;
 }
 
 .audio-current .audio-current-button-pause-play {
@@ -400,10 +400,19 @@
 
     .audio-current-head .audio-current-image {
         order: 1;
+        margin-right: 0;
+        width: 50%;
+    }
+
+    .audio-current .audio-current-image img {
+        width: 100px;
+        height: 100px;
+        margin-right: 0;
     }
 
     .audio-current-head .audio-current-action {
         order: 2;
+        width: 50%;
     }
 
     .audio-current-head .audio-current-name {
@@ -416,5 +425,39 @@
     .audio-current .audio-current-waveform {
         margin: 0;
     }
+
+    .audio-current .audio-current-name span {
+        white-space: nowrap;
+    }
+
+    .audio-current .audio-current-name span.album {
+        display: none !important;
+    }
+
+    .audio-current .audio-current-button-prev,
+    .audio-current .audio-current-button-next {
+        padding: 0;
+        border: none;
+        text-align: center;
+    }
+
+    .audio-current .audio-current-button-prev span,
+    .audio-current .audio-current-button-next span {
+        margin: auto;
+    }
+
+    .audio-current .audio-current-button-pause-play {
+        padding: 0;
+    }
+
+    .audio-current .audio-current-button-volume,
+    .audio-current .audio-current-button-share {
+        padding: 0;
+    }
+
+    .audio-lists .audio-item .audio-item-play .audio-item-button-play-pause {
+        padding: 0;
+    }
+
 
 }

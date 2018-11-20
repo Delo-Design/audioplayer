@@ -1,36 +1,36 @@
 <field name="waveColor"
-       label="colorWave"
+       label="PLG_RADICALMILTIFIELDAUDIOPLAYER_WAVECOLOR_LABEL"
        type="color"
        default="#dddddd"
 />
 
 <field name="progressColor"
-       label="progressColor"
+       label="PLG_RADICALMILTIFIELDAUDIOPLAYER_PROGRESSCOLOR_LABEL"
        type="color"
        default="#F6953E"
 />
 
 
 <field name="cursorColor"
-       label="cursorColor"
+       label="PLG_RADICALMILTIFIELDAUDIOPLAYER_CURSORCOLOR_LABEL"
        type="color"
        default="#ba6f2e"
 />
 
 <field name="buttonPrimary"
-       label="buttonPrimary"
+       label="PLG_RADICALMILTIFIELDAUDIOPLAYER_BUTTONPRIMARY_LABEL"
        type="color"
        default="#F6953E"
 />
 
 <field name="buttonPrimaryIcon"
-       label="buttonPrimaryIcon"
+       label="PLG_RADICALMILTIFIELDAUDIOPLAYER_BUTTONPRIMARYICON_LABEL"
        type="color"
        default="#ffffff"
 />
 
 <field name="buttonTransparentIcon"
-       label="buttonTransparentIcon"
+       label="PLG_RADICALMILTIFIELDAUDIOPLAYER_BUTTONPTRANSPARENTICON_LABEL"
        type="color"
        default="#ffffff"
 />

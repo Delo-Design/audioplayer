@@ -14,6 +14,14 @@ use Joomla\CMS\HTML\HTMLHelper;
 
 defined('_JEXEC') or die;
 
+$input = Factory::getApplication()->input->getArray();
+$context = $input['option']. '.' . $input['view'];
+
+if(!in_array($context, ['com_content.article', 'com_users.user', 'com_contact.contact']))
+{
+    return;
+}
+
 if (!$field->value)
 {
     return;
@@ -243,6 +251,9 @@ Factory::getDocument()->addStyleDeclaration($style);
             if((countTracks-1) === i) {
                 if(audioId !== null) {
                     changeTrack(audioId);
+                    jQuery([document.documentElement, document.body]).animate({
+                        scrollTop: jQuery(".audio-player-wrap").offset().top - 100
+                    }, 600);
                 } else {
                     changeTrack(0);
                 }
