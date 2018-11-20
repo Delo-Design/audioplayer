@@ -15,3 +15,4 @@
 - Плагин поля Radical Multi Field [Перейти к полю](https://github.com/Delo-Design/radicalmultifield)
 - Joomla! 3.9 и выше
 - php 7.0 и выше
+- jQuery
