@@ -19,7 +19,7 @@
 
 	<updateservers>
 		<server type="extension" priority="1" name="Radical MultiField Audioplayer">
-			https://hika.su/update/free/radicalmultfield/plg_audioplayer.xml
+			https://hika.su/update/free/radicalmultifield/plg_audioplayer.xml
 		</server>
 	</updateservers>
 
