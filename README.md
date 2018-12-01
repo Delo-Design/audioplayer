@@ -5,7 +5,7 @@
 Демо https://hika.su/rasshireniya/raficalmultfild/primer-audiopleera
 
 Установка и настройка
-- Скачайте последний релиз
+- Скачайте последний релиз [Перейти к релизам](https://github.com/Delo-Design/radicalmultifield_audioplayer/releases)
 - Установите плагин в вашу Joomla!
 - Актививируйте плагин
 - Создайте поле с типом "Radical Multi Field Аудиоплеер" (все необходимые настройки заполнятся автоматически)
@@ -15,3 +15,4 @@
 - Плагин поля Radical Multi Field [Перейти к полю](https://github.com/Delo-Design/radicalmultifield)
 - Joomla! 3.9 и выше
 - php 7.0 и выше
+- jQuery
