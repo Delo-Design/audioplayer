@@ -549,6 +549,9 @@
 .audio-lists .audio-item .audio-item-name span {
     display: block;
     font-size: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .audio-lists .audio-item .audio-item-name span:first-child {
@@ -638,6 +641,10 @@
 
     #waveform > * {
         height: 60px !important;
+    }
+
+    .audio-lists .audio-item .audio-item-name {
+        max-width: 230px;
     }
 
 }

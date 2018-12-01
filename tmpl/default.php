@@ -282,7 +282,8 @@ Factory::getDocument()->addStyleDeclaration($style);
             cursorColor: '<?= $field->fieldparams->get('cursorColor') ?>',
             height: 100,
             backend: 'MediaElement',
-            mediaControls: false
+            mediaControls: false,
+            cursorWidth: 2
         });
         let currentUrl = new URL(location.href);
         let audioId = currentUrl.searchParams.get('audio_id');
